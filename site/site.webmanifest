@@ -1,0 +1,12 @@
+{
+  "name": "Хвостики — приют для животных",
+  "short_name": "Хвостики",
+  "lang": "ru",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#fff7ef",
+  "theme_color": "#e8743b",
+  "icons": [
+    { "src": "img/favicon-192.png", "sizes": "192x192", "type": "image/png" }
+  ]
+}

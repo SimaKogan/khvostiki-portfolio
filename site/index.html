@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Приют «Хвостики» — помочь, усыновить, стать волонтёром</title>
+  <meta name="description" content="Приют для бездомных животных «Хвостики»: познакомьтесь с подопечными, оставьте заявку на усыновление, станьте волонтёром или поддержите приют пожертвованием.">
+  <meta name="theme-color" content="#e8743b">
+  <link rel="canonical" href="__SITE_URL__/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="Хвостики">
+  <meta property="og:title" content="Приют «Хвостики» — помочь, усыновить, стать волонтёром">
+  <meta property="og:description" content="Приют для бездомных животных «Хвостики»: познакомьтесь с подопечными, оставьте заявку на усыновление, станьте волонтёром или поддержите приют пожертвованием.">
+  <meta property="og:url" content="__SITE_URL__/">
+  <meta property="og:image" content="__SITE_URL__/img/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" href="img/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="stylesheet" href="style.css?v=10">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="index.html">🐾 Хвостики</a>
+      <button type="button" class="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-nav">☰</button>
+      <nav id="site-nav" aria-label="Основное меню">
+        <a href="index.html" class="active" aria-current="page">Главная</a>
+        <a href="adopt.html">Приютить питомца</a>
+        <a href="volunteer.html">Волонтерство</a>
+        <a href="open-day.html">День открытых дверей</a>
+        <a href="yoga.html">Йога с животными</a>
+        <a href="stories.html">Истории спасения</a>
+        <a href="help.html">Поддержать приют</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <main id="main">
+  <div class="hero">
+    <div class="wrap">
+      <div class="hero-media">
+        <video class="gif" width="800" height="450" autoplay muted loop playsinline preload="metadata" poster="img/hero-poster.webp" aria-hidden="true">
+        <source src="img/hero.webm" type="video/webm">
+        <source src="img/hero.mp4" type="video/mp4">
+      </video>
+      </div>
+      <h1>Как помочь приюту для животных</h1>
+      <p>Вы можете помочь приюту, делая денежные и материальные пожертвования, становясь волонтёром,
+         участвуя в информационных кампаниях или предлагая другие формы поддержки.</p>
+      <a class="btn" href="help.html">Помочь сейчас</a>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <h2>Познакомьтесь с нашими подопечными</h2>
+      <p class="lead">В нашем приюте живут животные, которые ищут дом и любовь.
+         Узнайте больше о них и станьте частью их новой жизни!</p>
+      <div class="filter" id="pet-filter" role="group" aria-label="Фильтр питомцев" hidden></div>
+      <p class="filter-empty" id="filter-empty" hidden>Сейчас таких питомцев нет. Выберите другой вариант.</p>
+      <div class="grid" id="pet-grid">
+        <div class="card" data-type="dog">
+          <div class="ph"><img src="photos/dog-bars.jpg" alt="Рокси" loading="lazy"></div>
+          <h3>Рокси</h3>
+          <p class="quote">«Я просто хочу быть кому-то нужной»</p>
+          <p>Я не умею говорить человеческими словами, но зато умею любить всем сердцем. Каждый раз, когда ко мне подходят, я надеюсь: может быть, именно сейчас за мной пришли домой? Я мечтаю о человеке, рядом с которым смогу спокойно уснуть, о прогулках, ласке и простом ощущении — «я дома».</p>
+          <a class="btn small" href="adopt.html">Усыновить</a>
+        </div>
+        <div class="card" data-type="dog">
+          <div class="ph"><img src="photos/dog-red-bandana.jpg" alt="Чип" loading="lazy"></div>
+          <h3>Чип</h3>
+          <p class="quote">«Давайте дружить?» 🐾</p>
+          <p>Я тот самый пёс, который обязательно встретит вас у двери, будет радоваться каждой прогулке и искренне считать вас самым лучшим человеком на свете. Я люблю движение, внимание и, конечно же, вкусняшки.</p>
+          <a class="btn small" href="adopt.html">Усыновить</a>
+        </div>
+        <div class="card" data-type="cat">
+          <div class="ph"><img src="photos/kitten-grass.jpg" alt="Мэши" loading="lazy"></div>
+          <h3>Мэши</h3>
+          <p class="quote">«Я маленькая, но у меня огромное сердце»</p>
+          <p>Если вы познакомитесь со мной поближе, то узнаете, сколько нежности может поместиться в одном маленьком сердце. Я мечтаю о тёплом доме, мягком месте для сна и человеке, рядом с которым мне больше никогда не придётся бояться одиночества.</p>
+          <a class="btn small" href="adopt.html">Усыновить</a>
+        </div>
+        <div class="card" data-type="dog">
+          <div class="ph"><img src="photos/dog-collar.jpg" alt="Отис" loading="lazy"></div>
+          <h3>Отис</h3>
+          <p class="quote">«Неужели мой человек ещё не нашёл меня?»</p>
+          <p>Иногда я просто сижу и смотрю на людей вокруг. Я надеюсь, что сегодня это будет мой человек. Мне не нужны роскошные условия. Мне нужны миска с едой, тёплое место, прогулки и человек, который однажды скажет: «Теперь ты со мной. Ты дома».</p>
+          <a class="btn small" href="adopt.html">Усыновить</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <h2>Новости приюта</h2>
+      <p class="lead">Следите за новостями приюта для животных, чтобы поддерживать его миссию.</p>
+      <div class="grid">
+        <div class="card">
+          <div class="ph thumb"><img src="photos/kitten-bars.jpg" alt="Спасённый котёнок" loading="lazy"></div>
+          <h3>Спасение новых питомцев</h3>
+          <p>Недавно в наш приют поступили несколько животных, нуждающихся в заботе и лечении.</p>
+        </div>
+        <div class="card">
+          <div class="ph thumb"><img src="photos/dog-blue-bandana.jpg" alt="Радостная собака в синей бандане" loading="lazy"></div>
+          <h3>Благотворительный сбор</h3>
+          <p>Мы проводим благотворительный сбор для обеспечения лучших условий содержания животных в приюте.</p>
+        </div>
+        <div class="card">
+          <div class="ph thumb"><img src="photos/kittens-basket.jpg" alt="Котята в корзинке" loading="lazy"></div>
+          <h3>Заявка на усыновление</h3>
+          <p>Заполните форму, чтобы стать частью большой семьи и усыновить питомца из нашего приюта.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Помощь животным: как мы работаем</h2>
+      <p class="lead">Узнайте о нашей миссии и о том, как мы помогаем бездомным животным.</p>
+      <div class="grid cols3">
+        <div class="card"><div class="ph thumb"><img src="photos/puppy-cage.jpg" alt="Щенок отдыхает в тёплом вольере" loading="lazy"></div><h3>🏠 Приют и уход</h3><p>Обеспечиваем безопасное и комфортное проживание для всех животных в нашем приюте.</p></div>
+        <div class="card"><div class="ph thumb"><img src="photos/siamese.jpg" alt="Сиамская кошка" loading="lazy"></div><h3>👪 Поиск новых семей</h3><p>Помогаем питомцам найти любящий дом.</p></div>
+        <div class="card"><div class="ph thumb"><img src="photos/dog-toy.jpg" alt="Собака играет с игрушкой" loading="lazy"></div><h3>🤝 Волонтёрство</h3><p>Принимаем волонтёров, которые помогают с уходом и мероприятиями.</p></div>
+        <div class="card"><div class="ph thumb"><img src="photos/golden.jpg" alt="Спокойный золотистый ретривер" loading="lazy"></div><h3>💉 Медицинская помощь</h3><p>Проводим регулярные медицинские осмотры и лечение всех животных.</p></div>
+        <div class="card"><div class="ph thumb"><img src="photos/shepherd.jpg" alt="Внимательная овчарка" loading="lazy"></div><h3>📚 Образование и просвещение</h3><p>Рассказываем об ответственном отношении к животным.</p></div>
+        <div class="card"><div class="ph thumb"><img src="photos/dog-wheelchair.jpg" alt="Собака на специальной коляске" loading="lazy"></div><h3>💛 Поддержка и реабилитация</h3><p>Помогаем животным восстановиться после трудного прошлого.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <h2>Защищаем всех, кто ждёт заботы</h2>
+      <p class="lead">Не только кошки и собаки: каждому живому существу нужны безопасное место, внимание и добрые руки.</p>
+      <div class="grid cols3">
+        <div class="ph"><img src="photos/horse-eating.jpg" alt="Лошадь на пастбище" loading="lazy"></div>
+        <div class="ph"><img src="photos/horse-halter.jpg" alt="Лошадь у дерева" loading="lazy"></div>
+        <div class="ph"><img src="photos/meerkat.jpg" alt="Сурикат в бревне" loading="lazy"></div>
+        <div class="ph"><img src="photos/cat-house.jpg" alt="Домик для бездомных кошек зимой" loading="lazy"></div>
+        <div class="ph"><img src="photos/goat.jpg" alt="Коза на ферме" loading="lazy"></div>
+        <div class="ph"><img src="photos/dog-sky.jpg" alt="Собака под голубым небом" loading="lazy"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="adopt-form">
+    <div class="wrap">
+      <h2>Заявка на усыновление</h2>
+      <p class="lead" id="form-lead">Оставьте заявку: она придёт волонтёрам приюта, и мы свяжемся с вами.</p>
+      <form class="app" id="adopt-form-el" action="#" method="post" data-endpoint="">
+        <input type="text" id="f-name" name="name" placeholder="Ваше имя" aria-label="Ваше имя" autocomplete="name" minlength="2" maxlength="80" required>
+        <input type="tel" id="f-phone" name="phone" placeholder="Телефон" aria-label="Телефон" autocomplete="tel" inputmode="tel" pattern="[0-9+\(\)\-\s]{7,20}" title="Номер телефона: цифры, пробелы, + - ( )" required>
+        <input type="text" id="f-pet" name="pet" placeholder="Кого хотите усыновить?" aria-label="Кого хотите усыновить" maxlength="80">
+        <textarea id="f-msg" name="msg" rows="4" placeholder="Расскажите немного о себе" aria-label="О себе" maxlength="1000"></textarea>
+        <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="btn" type="submit">Отправить заявку</button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite" hidden></p>
+      </form>
+      <div class="form-result" id="form-result" hidden>
+        <p id="form-result-lead"><strong>Заявка готова.</strong> Скопируйте текст, откройте Telegram и отправьте его нам в чат или напишите на info@khvostiki.example.</p>
+        <pre id="form-text"></pre>
+        <div class="form-actions">
+          <a class="btn" id="form-tg" href="https://t.me/khvostiki_demo" target="_blank" rel="noopener">Открыть Telegram</a>
+          <button class="btn outline" type="button" id="form-copy">Скопировать текст</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <h2>Свяжитесь с нами</h2>
+      <p class="lead">Мы всегда готовы помочь. Свяжитесь с нами любым удобным способом.</p>
+      <div class="side-photo"><img src="photos/contact-us.jpg" alt="Свяжитесь с нами" loading="lazy"></div>
+      <div class="grid">
+        <div class="card"><h3>📍 Адрес</h3><p>г. Приветск, ул. Хвостатая, д. 12</p></div>
+        <div class="card"><h3>📞 Телефон</h3><p>+7 900 000 12 34</p></div>
+        <div class="card"><h3>✉️ Электронная почта</h3><p><a href="mailto:info@khvostiki.example">info@khvostiki.example</a></p></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="cta">
+    <div class="wrap">
+      <h2>Каждый хвостик ждёт своего человека</h2>
+      <p class="lead">Заберите питомца домой, станьте волонтёром или помогите приюту пожертвованием.</p>
+      <div class="cta-actions">
+        <a class="btn light" href="adopt.html">Приютить питомца</a>
+        <a class="btn ghost" href="volunteer.html">Стать волонтёром</a>
+        <a class="btn ghost" href="help.html">Поддержать приют</a>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Присоединяйтесь к нам в благородном деле защиты животных.</p>
+      <p><a href="https://t.me/khvostiki_demo">Telegram</a> · +7 900 000 12 34 · <a href="mailto:info@khvostiki.example">info@khvostiki.example</a></p>
+      <p>© Хвостики, приют для животных</p>
+    </div>
+  </footer>
+
+  <script src="site.js?v=10" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "khvostiki-api",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Vercel Function: приём заявок на усыновление и отправка в Telegram",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "dev": "node --env-file=.env.local dev-server.mjs"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}

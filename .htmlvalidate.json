@@ -1,0 +1,11 @@
+{
+  "extends": ["html-validate:recommended"],
+  "rules": {
+    "no-trailing-whitespace": "off",
+    "void-style": ["error", { "style": "omit" }],
+    "attribute-boolean-style": "off",
+    "attribute-empty-style": "off",
+    "no-inline-style": "error",
+    "no-autoplay": ["error", { "include": ["audio"] }]
+  }
+}

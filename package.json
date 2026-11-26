@@ -1,0 +1,20 @@
+{
+  "name": "khvostiki",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Сайт приюта для животных «Хвостики» + serverless API заявок (Vercel Functions)",
+  "scripts": {
+    "setup": "npm install",
+    "dev": "node scripts/dev.mjs",
+    "start": "node scripts/dev.mjs",
+    "lint:html": "html-validate \"site/*.html\"",
+    "test": "npm --prefix server test",
+    "check": "npm run lint:html && npm test"
+  },
+  "devDependencies": {
+    "html-validate": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
