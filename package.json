@@ -12,7 +12,7 @@
     "check": "npm run lint:html && npm test"
   },
   "devDependencies": {
-    "html-validate": "^9.0.0"
+    "html-validate": "^11.21.1"
   },
   "engines": {
     "node": ">=20"
